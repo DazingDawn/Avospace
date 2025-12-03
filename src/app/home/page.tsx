@@ -158,6 +158,12 @@ export default function Home() {
             </li>
             <li className="py-2" style={{ cursor: 'pointer' }} onClick={() => composerRef.current?.open()}>Post</li>
             <li className="py-2">Favorites</li>
+            <li className="py-2" 
+                onClick={() => router.push('/game')}
+                style={{ cursor: 'pointer' }}>Game</li>
+            <li className="py-2" 
+                onClick={() => router.push('/words-of-affirmation')}
+                style={{ cursor: 'pointer' }}>Words of Affirmation</li>
           </ul>
         </div>
 

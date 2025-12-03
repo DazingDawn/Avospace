@@ -139,6 +139,12 @@ export default function Account() {
                             style={{ cursor: 'pointer' }} onClick={() => editComposerRef.current?.open()}>
                             Edit
                         </li>
+                        <li className="py-2" 
+                            onClick={() => router.push('/game')}
+                            style={{ cursor: 'pointer' }}>Game</li>
+                        <li className="py-2" 
+                            onClick={() => router.push('/words-of-affirmation')}
+                            style={{ cursor: 'pointer' }}>Words of Affirmation</li>
                     </ul>
                 </div>
 
